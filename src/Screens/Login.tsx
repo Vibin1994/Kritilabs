@@ -18,8 +18,6 @@ export default function Login() {
   const navigation = useNavigation();
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
-  console.log(" userName ", userName);
-  console.log(" password ", password);
 
   const handleLinkPress = () => {
     Linking.openURL("https://www.example.com");

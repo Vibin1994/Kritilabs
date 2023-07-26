@@ -15,7 +15,6 @@ export default function CustomTextInput({ ...props }) {
       style={[style.textInput, { borderColor: borderColor }]}
       onFocus={(val) => {
         setBorderColor("green");
-        console.log(" focus ", val);
       }}
       onBlur={() => {
         setBorderColor("#000");
